@@ -61,6 +61,6 @@ body > header {
         width: 33.33333%; } }
     .produtos > .produtos__itens > .produtos__item:hover {
       background-color: #069;
-      transition: all 0.1s linear; }
+      transition: all 0.2s linear; }
 
 /*# sourceMappingURL=style.css.map */
