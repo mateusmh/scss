@@ -1,0 +1,23 @@
+.produtos{
+	> .produtos__itens{
+		@include container-fixed();
+		> .produtos__item{
+			@include make-xs-column(12);
+			@include make-sm-column(6);
+			@include make-md-column(4);
+
+			background: #000;
+			height: 300px;
+			margin-bottom: 20px;
+			background-clip: content-box;
+
+			&:hover{
+				background-color: #069;
+				transition: all 0.1s linear;
+			}
+
+			&, &:hover{
+			}
+		}
+	}
+}

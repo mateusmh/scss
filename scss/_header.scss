@@ -1,0 +1,22 @@
+body{
+	> header{
+
+		@include container-fixed();
+		height: 120px;
+		background: #ccc;
+		> ul{
+			list-style: none;
+			> li{
+				display: inline-block;
+				margin: 0 15px;
+				> a{
+					color: #FFF;
+					background: #333;
+					display: inline-block;
+					padding: 10px 20px;
+					text-decoration:none;
+				}
+			}
+		}
+	}
+}
